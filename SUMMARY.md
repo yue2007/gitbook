@@ -8,3 +8,4 @@
   * [常用的模版](algorithm/chang-yong-de-mo-ban.md)
   * [常用的API和写法](algorithm/chang-yong-de-api-he-xie-fa.md)
   * [时间复杂度](algorithm/shi-jian-fu-za-du.md)
+  * [o o d](algorithm/o-o-d.md)

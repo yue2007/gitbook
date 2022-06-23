@@ -51,11 +51,16 @@ delete fruits[0];
 //Merging
 //concat() does not change the existing arrays.
 
-//for add element
+//for add element //change the original array
 .splice(startIdx,removeEleCount,[eleToBeAdded])
 //splice() method returns an array with the deleted items
 
-//
+//create a new array but not change the original array
+//rest of the array
+.slice(agr1); 
+
+//start from arg1 to arg2 but not iclueded arg2
+.slice(arg1,arg2);
 ```
 
 ### Stack
