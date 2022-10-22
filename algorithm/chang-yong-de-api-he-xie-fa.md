@@ -6,6 +6,9 @@
 // create array
 const arr = new Array("ele1","ele2");
 let tmp = arr[0];
+
+//create 2d array m*n and fill with -1 
+const arr = new Array(m).fill().map(() => new Array(n).fill(-1));
 ```
 
 typeof Array is object\
@@ -65,13 +68,53 @@ delete fruits[0];
 
 ### Stack
 
+<pre><code><strong>//first in first out
+</strong><strong>.pop()
+</strong>.push()
+
+.size()</code></pre>
+
 ### Queue
+
+```
+//first in
+const array1 = [1, 2, 3];
+console.log(array1.unshift(4, 5));
+console.log(array1);  // expected output: Array [4, 5, 1, 2, 3]
+
+//last out
+const array1 = [1, 2, 3];
+const firstElement = array1.shift();
+console.log(array1);  // expected output: Array [2, 3]
+```
 
 ``
 
 ### Sort
 
+```
+//built in sort 
+//sort by beginning number or Alphabet
+const array1 = [1, 30, 4, 21, 100000];
+array1.sort();
+console.log(array1); // expected output: Array [1, 100000, 21, 30, 4]
+
+//sort by number // acceding order
+arr.sort((a,b) => a - b);
+```
+
 ## Map
+
+
+
+```
+// Some code
+const map = new Map();
+.set();
+.get();
+.delete(key);
+.has();
+```
 
 ## Set
 
